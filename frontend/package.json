@@ -1,0 +1,82 @@
+{
+	"name": "admin-app",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@react-pdf/renderer": "https://gitpkg.now.sh/kidroca/react-pdf/packages/renderer?2fa4df0056a7c7c1dda69538e2ab8a874b1a5d5b",
+		"@testing-library/jest-dom": "^5.11.5",
+		"@testing-library/react": "^11.1.1",
+		"@testing-library/user-event": "^12.2.0",
+		"apexcharts": "^3.22.1",
+		"axios": "^0.21.0",
+		"connected-react-router": "^6.8.0",
+		"file-saver": "^2.0.5",
+		"formik": "^2.2.3",
+		"fullcalendar-reactwrapper": "^1.0.7",
+		"jquery": "^3.5.1",
+		"mdbreact": "^4.27.0",
+		"moment": "^2.29.1",
+		"prop-types": "^15.7.2",
+		"react": "^17.0.1",
+		"react-apexcharts": "^1.3.7",
+		"react-ckeditor-component": "^1.1.0",
+		"react-date-picker": "^8.0.7",
+		"react-dom": "^17.0.1",
+		"react-dropzone": "^11.2.4",
+		"react-dropzone-component": "^3.2.0",
+		"react-export-excel": "^0.5.3",
+		"react-jvectormap": "0.0.16",
+		"react-metismenu": "^1.4.0",
+		"react-metismenu-router-link": "^2.1.0",
+		"react-nestable": "^1.3.0",
+		"react-redux": "^7.2.2",
+		"react-router-dom": "^5.2.0",
+		"react-script-tag": "^1.1.2",
+		"react-scripts": "^4.0.0",
+		"react-select": "^3.1.0",
+		"react-sparklines": "^1.7.0",
+		"react-spinners": "^0.9.0",
+		"react-toastify": "^6.1.0",
+		"react-tooltip": "^4.2.10",
+		"reactstrap": "^8.7.1",
+		"redux": "^4.0.5",
+		"redux-devtools-extension": "^2.13.8",
+		"redux-thunk": "^2.3.0",
+		"reselect": "^4.0.0",
+		"sweetalert2-react": "^0.8.3",
+		"universal-cookie": "^4.0.4",
+		"xlsx": "^0.17.0",
+		"yup": "^0.29.3"
+	},
+	"scripts": {
+		"build": "react-scripts build",
+		"test": "cross-env REACT_APP_ENVIRONMENT=testenv react-scripts test",
+		"eject": "react-scripts eject",
+		"start": "npm run start:localhost",
+		"start:localhost": "cross-env REACT_APP_ENVIRONMENT=localhost react-scripts start",
+		"build:production": "cross-env REACT_APP_ENVIRONMENT=production npm run build",
+		"start:production": "cross-env REACT_APP_ENVIRONMENT=production react-scripts start "
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.2",
+		"css-loader": "^5.0.1",
+		"html-webpack-plugin": "^4.5.0",
+		"react-dial-knob": "^1.1.5",
+		"style-loader": "^2.0.0"
+	}
+}

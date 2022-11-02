@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2016",
+        "jsx": "preserve",
+        "checkJs": true,
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "*"
+            ]
+        }
+    },
+    "exclude": [
+        ".git",
+        ".app-cache",
+        ".npm",
+        ".npm-tmp",
+        "dist",
+        "dist*",
+        "build",
+        "**/build/*",
+        "node_modules",
+        "subfolder/dist",
+        "subfolder/node_modules",
+        "**/dist/*",
+        "**/node_modules/*"
+    ]
+}
